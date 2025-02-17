@@ -34,10 +34,10 @@ const Header = ({ companyName, width }) => {
                   
                     <Link to="/AboutUs" className={styles.navItem}> About</Link>
                     <Link to="/contact" className={styles.navItem}>Contact</Link>
-                    <li className={styles.navItem}>Products</li>
-                    <Link to="/PatientEducation" className={styles.navItem}> PatientEducation </Link>
-                    <Link to="/ProfessionalEducation" className={styles.navItem}>  ProfessionalEducation </Link>
-                    <Link to="/DentalReserch" className={styles.navItem} > DentalReserch </Link>
+                    <Link to="/Product" className={styles.navItem}> Products</Link>
+                    <Link to="/PatientEducation" className={styles.navItem}> Patient Education </Link>
+                    <Link to="/ProfessionalEducation" className={styles.navItem}>  Professional Education </Link>
+                    <Link to="/DentalReserch" className={styles.navItem} > Dental Reserch </Link>
 
                 </ul>
             </div>
