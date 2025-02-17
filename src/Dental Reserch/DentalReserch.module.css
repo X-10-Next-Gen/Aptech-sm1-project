@@ -22,6 +22,7 @@
 .pageList {
     list-style-type: none;
     margin-left: 20px;
+    font-size: 1.2rem;
 }
 
 .pageListItem {
