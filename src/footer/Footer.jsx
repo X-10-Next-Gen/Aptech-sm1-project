@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/Logo.png'
+import logo from '../assets/logo.png'
 import styles from './Footer.module.css'
 import { Link } from 'react-router-dom';
 
@@ -8,7 +8,7 @@ const Footer = ({ width, companyName }) => {
     <>
       <footer className={styles.footer}>
         <div className={styles.header}>
-          <img src={Logo} alt="" width={width} />
+          <img src={logo} alt="" width={width} />
           <h2>{companyName}</h2>
         </div>
         <div className={styles.content}>
