@@ -14,7 +14,7 @@ const Header = ({ companyName, width }) => {
         <nav className={styles.nav}>
               <Link to="/">
             <div className={styles.logoContainer}>
-                <img src={logo} alt="  Logo" className={styles.logo} />
+                <img src={logo} alt="React Logo" className={styles.logo} />
                 <h2 className={styles.companyName}>{companyName}</h2>
             </div>
             </Link>
