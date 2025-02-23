@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import react from '../assets/react.svg';
+import logo from '../assets/logo.png';
 import styles from './Header.module.css'; // Import the CSS module
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const Header = ({ companyName, width }) => {
         <nav className={styles.nav}>
               <Link to="/">
             <div className={styles.logoContainer}>
-                <img src={react} alt="React Logo" className={styles.logo} />
+                <img src={logo} alt="  Logo" className={styles.logo} />
                 <h2 className={styles.companyName}>{companyName}</h2>
             </div>
             </Link>
