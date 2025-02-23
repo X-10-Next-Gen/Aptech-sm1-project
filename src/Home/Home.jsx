@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Home.module.css';
-import react from '../assets/react.svg';
+import logo from '../assets/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-const Home = ({ companyName }) => {
+const Home = ({ companyName ,width }) => {
   const dentalImages = [
     "https://images.pexels.com/photos/4269696/pexels-photo-4269696.jpeg", // Dental tools on a tray
     "https://images.pexels.com/photos/3845766/pexels-photo-3845766.jpeg", // Patient smiling in a dental chair
@@ -91,7 +91,7 @@ const Home = ({ companyName }) => {
           data-aos-once="false"
           data-aos-easing="ease-in"
           >
-          <img src={react} alt="React Logo" />
+          <img src={logo} alt="React Logo" width={width} />
           <span className={styles.separator}></span>
           <h2 className={styles.serviceTitle}>General Service</h2>
           <h3 className={styles.serviceText}>A selection of general dentistry services.</h3>
