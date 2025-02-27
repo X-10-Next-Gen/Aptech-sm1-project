@@ -124,7 +124,7 @@ function App() {
 
     </Routes>
     <ScrollToTop />
-    <Ticker />
+
     <Footer width={width}   companyName={companyName}/>
     
     </>
