@@ -3,6 +3,7 @@ import styles from './Home.module.css';
 import logo from '../assets/logo.png';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import Ticker from '../Ticker/Ticker';
 // ..
 AOS.init();
 
@@ -171,8 +172,9 @@ const Home = ({ companyName ,width }) => {
 
 
 
-
+ <Ticker />
  </div>   
+
   );
 };
 
